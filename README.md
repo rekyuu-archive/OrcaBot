@@ -1,5 +1,25 @@
 # OrcaBot
 
+## Setup
+
+Install [Elixir](http://elixir-lang.org/)
+
+Modify the `config/secret.exs` for the oauth code. Should read as follows:
+
+```elixir
+use Mix.Config
+
+config :kaguya,
+  password: "oauth:blahblahblahblahblahblahblaaah"
+```
+
+```
+$ git clone https://github.com/rekyuu/OrcaBot
+$ cd OrcaBot
+$ mix deps.get
+$ iex -S mix
+```
+
 ## Available commands
 
 - `!coin` or `!flip` - flips a coin
