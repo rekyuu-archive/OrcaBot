@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install [Elixir](http://elixir-lang.org/)
+First install [Elixir](http://elixir-lang.org/).
 
 Then, clone the directory.
 
