@@ -1,19 +1,19 @@
-# Kuma Kai Ni
-
-![](https://kyo.li/i/kfrp.jpg)
+# OrcaBot
 
 ## Available commands
 
 - `!coin` or `!flip` - flips a coin
-- `!fortune` - fortune cookie
-- `!np` - now playing music via lastfm
 - `!predict (question)` - 8ball prediction
-- `!smug` - smug anime girl
-- `!time` - rekyuu's local time
+- `!time` - Orca's local time
 - `!uptime` - stream uptime
+- `!join` - joins the queue
+- `!leave` - leaves the queue
 
 ## Moderator commands
 
-- `!kuma` or `!ping` - ping/pong
+- `!ping` - ping/pong
+- `!next` - next person in queue
 - `!set :command ~action` - sets a custom command and response
 - `!del :command` - removes a custom command
+- `!addquote ~quote` - adds a quote
+- `!delquote :quote_id` - removes a quote
