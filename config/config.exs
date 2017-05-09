@@ -6,7 +6,7 @@ config :kaguya,
   server: "irc.chat.twitch.tv",
   server_ip_type: :inet,
   port: 6667,
-  bot_name: "KumaKaiNi",
+  bot_name: "YourBotName",
   channels: ["#orcastraw"],
   use_ssl: false,
   reconnect_interval: 5

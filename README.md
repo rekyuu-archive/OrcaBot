@@ -10,7 +10,7 @@ Then, clone the directory.
 $ git clone https://github.com/rekyuu/OrcaBot
 ```
 
-Modify the `config/secret.exs` for the oauth code. Should read as follows:
+Modify the `config/config.exs` for the bot's username, and create `config/secret.exs` for the oauth code. `secret.exs` should read as follows:
 
 ```elixir
 use Mix.Config
