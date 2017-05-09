@@ -4,6 +4,12 @@
 
 Install [Elixir](http://elixir-lang.org/)
 
+Then, clone the directory.
+
+```
+$ git clone https://github.com/rekyuu/OrcaBot
+```
+
 Modify the `config/secret.exs` for the oauth code. Should read as follows:
 
 ```elixir
@@ -13,8 +19,9 @@ config :kaguya,
   password: "oauth:blahblahblahblahblahblahblaaah"
 ```
 
+Then run the bot:
+
 ```
-$ git clone https://github.com/rekyuu/OrcaBot
 $ cd OrcaBot
 $ mix deps.get
 $ iex -S mix
